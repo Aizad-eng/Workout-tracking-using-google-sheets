@@ -1,9 +1,10 @@
 import requests
 import json
+
 NUTRITIONIX_API_KEY = "Nutritionix API KEY"
 NUTRITIONIX_APP_ID = "Nutritionix APP ID"
-
 NUTRITIONIX_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
+
 SHEETY_ENDPOINT = "YOUR SHEETY ENDPOINT"
 
 GENDER = #YOUR GENDER
