@@ -1,10 +1,11 @@
 import requests
 import json
+import datetime
 
 NUTRITIONIX_API_KEY = "Nutritionix API KEY"
 NUTRITIONIX_APP_ID = "Nutritionix APP ID"
 NUTRITIONIX_ENDPOINT = "https://trackapi.nutritionix.com/v2/natural/exercise"
-
+todays_date = str(datetime.datetime.now().date())
 SHEETY_ENDPOINT = "YOUR SHEETY ENDPOINT"
 
 GENDER = #YOUR GENDER
@@ -44,7 +45,7 @@ for i in range(len(data["exercises"])):
 
     sheet_input = {
     "workout":{
-        "date":"21/07/2020",
+        "date":todays_date,
         "time":"13:00",
         "exercise":exercise,
         "duration":duration,
